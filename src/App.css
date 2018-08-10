@@ -1,0 +1,55 @@
+body,
+html {
+  padding: 10px;
+  font-family: Arial;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 16px;
+}
+
+.loading {
+  text-align: center;
+  width: 320px;
+  margin: 20px auto;
+}
+
+.warning {
+  color: #666;
+  padding: 10px 0;
+}
+
+.error {
+  color: tomato;
+  padding: 10px 0;
+}
+
+.results h3 {
+  margin-bottom: 0;
+}
+.results p {
+  margin-top: 0;
+}
+
+.kitty-image {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+
+.inputid {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.submitid {
+  background-color: #606b76;
+  color: white;
+  margin-left: 10px;
+  border-radius: 5px;
+}
